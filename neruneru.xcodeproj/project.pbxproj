@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B5362752088853200572AD8 /* FirstUserInfoAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5362742088853200572AD8 /* FirstUserInfoAddViewController.swift */; };
+		0B53627720888A8500572AD8 /* UIColor+theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B53627620888A8500572AD8 /* UIColor+theme.swift */; };
+		0B53627A20888F9000572AD8 /* FirstGetUpTimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B53627920888F9000572AD8 /* FirstGetUpTimeViewController.swift */; };
+		0B53627C20889EE400572AD8 /* FirstChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B53627B20889EE400572AD8 /* FirstChartViewController.swift */; };
+		0B6CC08A208989F700BBF235 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CC089208989F700BBF235 /* TabBarController.swift */; };
+		0B6CC08C20898AF300BBF235 /* WorldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CC08B20898AF300BBF235 /* WorldViewController.swift */; };
+		0B6CC08E20898B2600BBF235 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CC08D20898B2600BBF235 /* ScheduleViewController.swift */; };
+		0B6CC09020898B4100BBF235 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CC08F20898B4100BBF235 /* HomeViewController.swift */; };
+		0B6CC09220898B5800BBF235 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CC09120898B5800BBF235 /* SettingViewController.swift */; };
+		0B6CC0962089F3E500BBF235 /* SetWakeUpTimeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CC0952089F3E500BBF235 /* SetWakeUpTimeVC.swift */; };
+		0B6CC0982089F87C00BBF235 /* SleepViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CC0972089F87C00BBF235 /* SleepViewController.swift */; };
+		0B6CC09A208A006B00BBF235 /* WakeUpCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6CC099208A006B00BBF235 /* WakeUpCheckViewController.swift */; };
+		0B6CC09C208A01A100BBF235 /* sounds.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B6CC09B208A01A100BBF235 /* sounds.mp3 */; };
+		2317E9D10BF51617E5DC3487 /* Pods_neruneru.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA1E54BFB9F0D88878F763AB /* Pods_neruneru.framework */; };
+		A511715C20887BDD005B8224 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511715B20887BDD005B8224 /* AppDelegate.swift */; };
+		A511715E20887BDD005B8224 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A511715D20887BDD005B8224 /* ViewController.swift */; };
+		A511716120887BDD005B8224 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A511715F20887BDD005B8224 /* Main.storyboard */; };
+		A511716320887BDD005B8224 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A511716220887BDD005B8224 /* Assets.xcassets */; };
+		A511716620887BDD005B8224 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A511716420887BDD005B8224 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B5362742088853200572AD8 /* FirstUserInfoAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUserInfoAddViewController.swift; sourceTree = "<group>"; };
+		0B53627620888A8500572AD8 /* UIColor+theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+theme.swift"; sourceTree = "<group>"; };
+		0B53627920888F9000572AD8 /* FirstGetUpTimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGetUpTimeViewController.swift; sourceTree = "<group>"; };
+		0B53627B20889EE400572AD8 /* FirstChartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstChartViewController.swift; sourceTree = "<group>"; };
+		0B6CC089208989F700BBF235 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0B6CC08B20898AF300BBF235 /* WorldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldViewController.swift; sourceTree = "<group>"; };
+		0B6CC08D20898B2600BBF235 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		0B6CC08F20898B4100BBF235 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0B6CC09120898B5800BBF235 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0B6CC0952089F3E500BBF235 /* SetWakeUpTimeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetWakeUpTimeVC.swift; sourceTree = "<group>"; };
+		0B6CC0972089F87C00BBF235 /* SleepViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepViewController.swift; sourceTree = "<group>"; };
+		0B6CC099208A006B00BBF235 /* WakeUpCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WakeUpCheckViewController.swift; sourceTree = "<group>"; };
+		0B6CC09B208A01A100BBF235 /* sounds.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sounds.mp3; sourceTree = "<group>"; };
+		A511715820887BDC005B8224 /* neruneru.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neruneru.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A511715B20887BDD005B8224 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A511715D20887BDD005B8224 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A511716020887BDD005B8224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A511716220887BDD005B8224 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A511716520887BDD005B8224 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A511716720887BDD005B8224 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA1E54BFB9F0D88878F763AB /* Pods_neruneru.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neruneru.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF44501376077C6C295AD59 /* Pods-neruneru.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neruneru.debug.xcconfig"; path = "Pods/Target Support Files/Pods-neruneru/Pods-neruneru.debug.xcconfig"; sourceTree = "<group>"; };
+		D7037F080F6465E9888240DD /* Pods-neruneru.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neruneru.release.xcconfig"; path = "Pods/Target Support Files/Pods-neruneru/Pods-neruneru.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A511715520887BDC005B8224 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2317E9D10BF51617E5DC3487 /* Pods_neruneru.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B53627820888A8A00572AD8 /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				0B53627620888A8500572AD8 /* UIColor+theme.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		0B6CC09320898D9300BBF235 /* First */ = {
+			isa = PBXGroup;
+			children = (
+				0B5362742088853200572AD8 /* FirstUserInfoAddViewController.swift */,
+				0B53627920888F9000572AD8 /* FirstGetUpTimeViewController.swift */,
+				0B53627B20889EE400572AD8 /* FirstChartViewController.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+		0B6CC09420898DC500BBF235 /* AppScreen */ = {
+			isa = PBXGroup;
+			children = (
+				0B6CC089208989F700BBF235 /* TabBarController.swift */,
+				0B6CC08B20898AF300BBF235 /* WorldViewController.swift */,
+				0B6CC08D20898B2600BBF235 /* ScheduleViewController.swift */,
+				0B6CC08F20898B4100BBF235 /* HomeViewController.swift */,
+				0B6CC09120898B5800BBF235 /* SettingViewController.swift */,
+				0B6CC0952089F3E500BBF235 /* SetWakeUpTimeVC.swift */,
+				0B6CC0972089F87C00BBF235 /* SleepViewController.swift */,
+				0B6CC099208A006B00BBF235 /* WakeUpCheckViewController.swift */,
+			);
+			path = AppScreen;
+			sourceTree = "<group>";
+		};
+		9925A99AD886480C2C5EF69A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBF44501376077C6C295AD59 /* Pods-neruneru.debug.xcconfig */,
+				D7037F080F6465E9888240DD /* Pods-neruneru.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A511714F20887BDC005B8224 = {
+			isa = PBXGroup;
+			children = (
+				A511715A20887BDC005B8224 /* neruneru */,
+				A511715920887BDC005B8224 /* Products */,
+				9925A99AD886480C2C5EF69A /* Pods */,
+				AF71F48343FA920239977BEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A511715920887BDC005B8224 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A511715820887BDC005B8224 /* neruneru.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A511715A20887BDC005B8224 /* neruneru */ = {
+			isa = PBXGroup;
+			children = (
+				0B6CC09420898DC500BBF235 /* AppScreen */,
+				0B6CC09320898D9300BBF235 /* First */,
+				0B53627820888A8A00572AD8 /* extension */,
+				A511715B20887BDD005B8224 /* AppDelegate.swift */,
+				A511715D20887BDD005B8224 /* ViewController.swift */,
+				A511715F20887BDD005B8224 /* Main.storyboard */,
+				A511716220887BDD005B8224 /* Assets.xcassets */,
+				A511716420887BDD005B8224 /* LaunchScreen.storyboard */,
+				0B6CC09B208A01A100BBF235 /* sounds.mp3 */,
+				A511716720887BDD005B8224 /* Info.plist */,
+			);
+			path = neruneru;
+			sourceTree = "<group>";
+		};
+		AF71F48343FA920239977BEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA1E54BFB9F0D88878F763AB /* Pods_neruneru.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A511715720887BDC005B8224 /* neruneru */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A511716A20887BDD005B8224 /* Build configuration list for PBXNativeTarget "neruneru" */;
+			buildPhases = (
+				ACB016C7405AFF2BDDE5F27D /* [CP] Check Pods Manifest.lock */,
+				A511715420887BDC005B8224 /* Sources */,
+				A511715520887BDC005B8224 /* Frameworks */,
+				A511715620887BDC005B8224 /* Resources */,
+				C0EE9A308A2CE8D1D7472115 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = neruneru;
+			productName = neruneru;
+			productReference = A511715820887BDC005B8224 /* neruneru.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A511715020887BDC005B8224 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Remi Higuchi";
+				TargetAttributes = {
+					A511715720887BDC005B8224 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A511715320887BDC005B8224 /* Build configuration list for PBXProject "neruneru" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A511714F20887BDC005B8224;
+			productRefGroup = A511715920887BDC005B8224 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A511715720887BDC005B8224 /* neruneru */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A511715620887BDC005B8224 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B6CC09C208A01A100BBF235 /* sounds.mp3 in Resources */,
+				A511716620887BDD005B8224 /* LaunchScreen.storyboard in Resources */,
+				A511716320887BDD005B8224 /* Assets.xcassets in Resources */,
+				A511716120887BDD005B8224 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ACB016C7405AFF2BDDE5F27D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neruneru-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0EE9A308A2CE8D1D7472115 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-neruneru/Pods-neruneru-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-neruneru/Pods-neruneru-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A511715420887BDC005B8224 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B53627C20889EE400572AD8 /* FirstChartViewController.swift in Sources */,
+				A511715E20887BDD005B8224 /* ViewController.swift in Sources */,
+				0B6CC09A208A006B00BBF235 /* WakeUpCheckViewController.swift in Sources */,
+				0B53627A20888F9000572AD8 /* FirstGetUpTimeViewController.swift in Sources */,
+				0B6CC09220898B5800BBF235 /* SettingViewController.swift in Sources */,
+				0B6CC08E20898B2600BBF235 /* ScheduleViewController.swift in Sources */,
+				0B6CC08C20898AF300BBF235 /* WorldViewController.swift in Sources */,
+				0B6CC09020898B4100BBF235 /* HomeViewController.swift in Sources */,
+				0B6CC0982089F87C00BBF235 /* SleepViewController.swift in Sources */,
+				0B53627720888A8500572AD8 /* UIColor+theme.swift in Sources */,
+				0B6CC08A208989F700BBF235 /* TabBarController.swift in Sources */,
+				0B6CC0962089F3E500BBF235 /* SetWakeUpTimeVC.swift in Sources */,
+				0B5362752088853200572AD8 /* FirstUserInfoAddViewController.swift in Sources */,
+				A511715C20887BDD005B8224 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A511715F20887BDD005B8224 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A511716020887BDD005B8224 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A511716420887BDD005B8224 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A511716520887BDD005B8224 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A511716820887BDD005B8224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A511716920887BDD005B8224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A511716B20887BDD005B8224 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBF44501376077C6C295AD59 /* Pods-neruneru.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CY5RB6NEZN;
+				INFOPLIST_FILE = neruneru/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaken2018tofu.neruneru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A511716C20887BDD005B8224 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7037F080F6465E9888240DD /* Pods-neruneru.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CY5RB6NEZN;
+				INFOPLIST_FILE = neruneru/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = kaken2018tofu.neruneru;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A511715320887BDC005B8224 /* Build configuration list for PBXProject "neruneru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A511716820887BDD005B8224 /* Debug */,
+				A511716920887BDD005B8224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A511716A20887BDD005B8224 /* Build configuration list for PBXNativeTarget "neruneru" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A511716B20887BDD005B8224 /* Debug */,
+				A511716C20887BDD005B8224 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A511715020887BDC005B8224 /* Project object */;
+}
